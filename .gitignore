@@ -1,0 +1,67 @@
+# Cocos2d-x build directories
+build/
+bin/
+*.xcodeproj/
+*.xcworkspace/
+*.sln
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+*.make
+
+# Visual Studio files
+*.sdf
+*.suo
+*.user
+*.ncb
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.pid
+
+# macOS files
+.DS_Store
+
+# Visual Studio Code settings
+.vscode/
+
+# Android Studio files
+*.iml
+.gradle/
+local.properties
+.idea/
+captures/
+
+# iOS build files
+*.ipa
+*.app
+*.dSYM/
+
+# Other files to ignore
+*.apk
+*.orig
+*.swp
+*.class
+*.jar
+*.war
+*.log
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.tgz
+*.bak
+*.swp
+*.lock
+*.pid
+*.pdb
+
+# User-specific files
+*.userprefs

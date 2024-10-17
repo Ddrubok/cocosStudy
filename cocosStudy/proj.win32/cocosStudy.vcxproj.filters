@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\Classes\HelloWorldScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\Classes\HelloWorldScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\proj.win32\resource.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\Resources\CloseNormal.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\Resources\CloseSelected.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\Resources\HelloWorld.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\Resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\Resources\res\.gitkeep">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\proj.win32\game.rc">
+      <Filter>Source Files\proj.win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{DB66BB1B-6A00-3753-9C89-CA8D5EFF107F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{36F99E3C-E321-3754-8194-8F89E74F1DF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res">
+      <UniqueIdentifier>{021DA914-8344-3938-9509-8D15AFE64FB1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7BB7A783-3140-39ED-A0C6-E34CBD16E496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{B03FEADF-AB10-31EB-BC03-0C71F3F07CC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{9289B7A1-14B0-3D40-BD4F-CD392D7AF530}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

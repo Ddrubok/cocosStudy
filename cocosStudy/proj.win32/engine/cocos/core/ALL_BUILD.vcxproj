@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{25AC6539-3579-3E30-969C-76B1457BBD09}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DooBokWie/Desktop/Project/Cocos/Project/cocosStudy/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/DooBokWie/Desktop/Project/Cocos/Project/cocosStudy -BC:/Users/DooBokWie/Desktop/Project/Cocos/Project/cocosStudy/proj.win32 --check-stamp-file C:/Users/DooBokWie/Desktop/Project/Cocos/Project/cocosStudy/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\2d\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\3d\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\audio\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\base\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\editor-support\spine\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\math\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\navmesh\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\network\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\physics\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\physics3d\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\platform\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\renderer\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\ui\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DooBokWie/Desktop/Project/Cocos/Project/cocosStudy/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/DooBokWie/Desktop/Project/Cocos/Project/cocosStudy -BC:/Users/DooBokWie/Desktop/Project/Cocos/Project/cocosStudy/proj.win32 --check-stamp-file C:/Users/DooBokWie/Desktop/Project/Cocos/Project/cocosStudy/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\2d\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\3d\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\audio\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\base\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\editor-support\spine\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\math\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\navmesh\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\network\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\physics\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\physics3d\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\platform\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\renderer\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\ui\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/DooBokWie/Desktop/Project/Cocos/Project/cocosStudy/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/DooBokWie/Desktop/Project/Cocos/Project/cocosStudy -BC:/Users/DooBokWie/Desktop/Project/Cocos/Project/cocosStudy/proj.win32 --check-stamp-file C:/Users/DooBokWie/Desktop/Project/Cocos/Project/cocosStudy/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\2d\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\3d\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\audio\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\base\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\editor-support\spine\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\math\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\navmesh\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\network\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\physics\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\physics3d\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\platform\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\renderer\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\ui\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/DooBokWie/Desktop/Project/Cocos/Project/cocosStudy/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/DooBokWie/Desktop/Project/Cocos/Project/cocosStudy -BC:/Users/DooBokWie/Desktop/Project/Cocos/Project/cocosStudy/proj.win32 --check-stamp-file C:/Users/DooBokWie/Desktop/Project/Cocos/Project/cocosStudy/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\2d\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\3d\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\audio\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\base\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\editor-support\spine\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\math\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\navmesh\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\network\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\physics\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\physics3d\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\platform\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\renderer\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\cocos\ui\CMakeLists.txt;C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\proj.win32\ZERO_CHECK.vcxproj">
+      <Project>{6BC3122E-8BA0-3440-91EB-AD293E1AF4D5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\proj.win32\engine\cocos\core\cocos2d.vcxproj">
+      <Project>{551B6B27-792E-396E-9B15-2276CA272C5F}</Project>
+      <Name>cocos2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\proj.win32\engine\external\clipper\ext_clipper.vcxproj">
+      <Project>{10730C81-DD03-30B1-8885-A9D651CEECCD}</Project>
+      <Name>ext_clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\proj.win32\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
+      <Project>{42093894-874E-3630-A13C-7485BB30F551}</Project>
+      <Name>ext_convertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\proj.win32\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
+      <Project>{C19B8D53-8E6E-39CE-A027-3BE5FB992EF6}</Project>
+      <Name>ext_edtaa3func</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\proj.win32\engine\external\md5\ext_md5.vcxproj">
+      <Project>{514C6319-D873-3871-A709-FE3D8CD5AA43}</Project>
+      <Name>ext_md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\proj.win32\engine\external\poly2tri\ext_poly2tri.vcxproj">
+      <Project>{AC21CB6A-2ED0-3AEE-B65A-0685CFB75CBF}</Project>
+      <Name>ext_poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\proj.win32\engine\external\recast\ext_recast.vcxproj">
+      <Project>{8B85C55E-C2F6-31CF-8E6D-BC91D76BED6F}</Project>
+      <Name>ext_recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\proj.win32\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
+      <Project>{DF600F6D-BE2A-3120-BFF7-3BC83880D76C}</Project>
+      <Name>ext_tinyxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\proj.win32\engine\external\unzip\ext_unzip.vcxproj">
+      <Project>{3D791F6B-3459-3C18-BC94-75276E2C0AE0}</Project>
+      <Name>ext_unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\proj.win32\engine\external\xxhash\ext_xxhash.vcxproj">
+      <Project>{F21414B8-563D-349B-9345-58EE1E1DBC5A}</Project>
+      <Name>ext_xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\proj.win32\engine\external\xxtea\ext_xxtea.vcxproj">
+      <Project>{4305A8A1-9134-30E7-9F62-1860C45B7055}</Project>
+      <Name>ext_xxtea</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DooBokWie\Desktop\Project\Cocos\Project\cocosStudy\proj.win32\engine\external\external.vcxproj">
+      <Project>{10D9C45C-94F1-3E84-BAB3-30EED8868427}</Project>
+      <Name>external</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
